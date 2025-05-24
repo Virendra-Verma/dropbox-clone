@@ -2,7 +2,9 @@
 
 import { File } from "lucide-react";
 // If the Card component exists in a different path, update the import path accordingly, for example:
-import { Card, CardBody } from "./Card";
+// If you want to use react-bootstrap's Card component, use the following import:
+import Card from "react-bootstrap/Card";
+const CardBody = Card.Body;
 // Or, if you meant to use a library component (e.g., from 'react-bootstrap'), use:
 // import Card from "react-bootstrap/Card";
 
